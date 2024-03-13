@@ -1,0 +1,6 @@
+n1 = input('Digite algo: ')
+print(type(n1))
+print('O valor é um número?', n1.isnumeric())
+print('O valor digitado é uma palavra?', n1.isalpha())
+print('O valor digitado contém letras e números?', n1.isalnum())
+print('O valor digitado contém letras maiúsculas?', n1.isupper())
